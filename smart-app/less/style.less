@@ -1,0 +1,528 @@
+/*=========================
+    1) Common Css Start
+===========================*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    h2 {
+        color: #636C6C;
+    }
+    p {
+        color: #AFB8B8;
+    }
+}
+
+.button {
+    background: none;
+    border: 3px solid #AAB2B5;
+    border-radius: 30px;
+    color: #636c6c;
+    padding: 8px 50px;
+    font-size: 21px;
+    font-weight: 700;
+    &:hover {
+        background: transparent;
+    }
+}
+
+/*=========================
+     Common Css End
+===========================*/
+
+/*=========================
+    2)header Start
+===========================*/
+
+#header {
+    padding: 40px 0px;
+}
+
+
+
+.contact-area {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.contact-area li {
+    display: inline-block;
+    margin-left: 40px;
+    color: #3C3D42;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400px;
+}
+
+.contact-area li i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.nav-logo {
+    margin-right: 30px;
+    margin-top: 12px;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #8B9090;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background: none;
+    color: #3C3D42;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-top: 11px;
+}
+
+
+/*=========================
+    3) slider Start
+===========================*/
+
+#slider {
+    background: url(../images/slider.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 255px;
+    padding-top: 180px;
+}
+
+#slider .block {
+    h2 {
+        color: #fff;
+        font-weight: 700;
+        margin: 0px;
+        font-size: 36px;
+    }
+
+    h4 {
+       margin: 0px;
+        font-size: 36px;
+        color: #C7D0D5;
+        font-weight: 300;
+        line-height: 43px; 
+    }
+
+    p {
+        margin: 0px;
+        color: #90BBC5;
+        padding-top: 40px;
+        font-size: 14px;
+    }
+
+    .button {
+        margin-top: 50px;
+        color: #FFF;
+    }
+}
+
+
+
+
+
+
+/*=========================
+    4) Service Start
+===========================*/
+
+
+
+#service {
+    padding: 110px 0px;
+    .service-tab {
+        ul {
+            float: left;
+            list-style: outside none none;
+            padding: 0;
+            margin-right: 150px;
+            border-right: 1px solid #DBE2E2;
+            .active  a {
+                border-right: 10px solid #5DCA88;
+                padding-right: 50px;
+                text-decoration: none;
+            }
+            li {
+                margin: 25px 0;
+
+                a {
+                    color: #9FA9A9;
+                    padding:17px 17px 17px 0;
+                    font-size: 20px;
+                    font-weight: 400;
+                    display: block;
+                    border-right: 10px solid transparent;
+                    -webkit-transition: .3s all;
+                    -o-transition: .3s all;
+                    transition: .3s all;
+                    &:hover {
+                        border-right: 10px solid #5DCA88;
+                        padding-right: 50px;
+                        text-decoration: none;
+                    }
+
+                    &:hover i {
+                        color: #5DCA88;
+                    }
+                    i {
+                        font-size: 45px;
+                        margin-right: 40px;
+                    }
+                }
+            }
+        }
+        .tab-pane {
+            .icon {
+                text-align: center;
+                color: #5DCA88;
+                    i {
+                    font-size: 170px;
+                }
+            }
+            h3 {
+                color: #636C6C;
+                font-size: 24px;
+                margin: 0px;
+                margin: 0px;
+                padding-bottom: 30px;
+                padding-top: 50px;
+            }
+            p {
+                color: #AFB8B8;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                margin: 0px;
+            }
+
+        }
+    }
+}
+
+
+
+
+
+/*=========================
+    6) Gallery Start
+===========================*/
+
+#gallery {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+
+#gallery .block {
+    text-align: center;
+    padding-top: 50px;
+        p {
+        color: #9ea5a5;
+        font-size: 14px;
+        padding-top: 45px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+}
+
+
+
+#gallery .owl-carousel .owl-controls {
+    left: 0;
+    margin-top: -40px;
+    position: absolute;
+    text-align: left;
+    top: 45%;
+    width: 100%;
+}
+
+#gallery .owl-carousel .owl-controls .owl-buttons div {
+    color: #9fa9a9;
+    font-size: 50px;
+    display: inline-block;
+}
+
+
+
+#gallery .owl-carousel .owl-controls .owl-buttons div.owl-next {
+    position: absolute;
+    right: 0px;
+}
+
+
+#owl-demo .item {
+    margin: 3px;
+    padding: 30px;
+}
+
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/*=========================
+    7) Feature Start
+===========================*/
+
+.feature {
+    background: #F2F9FE;
+    padding: 80px 0px;
+    
+    .block {
+        .description {
+             padding-top: 40px;
+            h2 {
+                color: #5DCA88;
+                margin-bottom: 70px;
+                &:before {
+                    background: #949C9C;
+                    content: "";
+                    height: 2px;
+                    position: absolute;
+                    width: 102px;
+                    top: 180px;
+
+                }
+            }
+            h4 {
+                color: #8C9494;
+                font-size: 35px;
+                font-weight: 400;
+                padding-bottom: 25px;
+            }
+            p {
+                color: #ABB2B4;
+                margin: 0px;
+            }
+            .button {
+                margin-top: 50px;
+            }   
+        }
+         
+    }
+}
+
+
+
+
+
+/*=========================
+     Contant-2 close
+===========================*/
+
+/*=========================
+    8) testimonial Start
+===========================*/
+
+#testimonial {
+    text-align: center;
+    padding-bottom: 110px;
+    padding-top: 100px;
+    .block {
+        h2 {
+            color: #636C6C;
+            margin: 0px;
+            padding-bottom: 38px;
+        }
+        img {
+            border-radius: 500px;
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+        }
+        p {
+            color: #8C9494;
+            font-family: 'Droid Serif', serif;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 24px;
+            line-height: 24px;
+            margin: 0;
+            padding-bottom: 40px;
+            padding-top: 45px;
+            span {
+                font-style: normal;
+                display: block;
+                color: #5DCA88;
+                font-weight: 400;
+                padding-top: 28px;
+            }
+        }
+    }
+}
+
+
+
+#testimonial .owl-carousel .owl-controls .owl-pagination {
+    text-align: center;
+}
+
+#testimonial .owl-carousel .owl-controls .owl-pagination div {
+    background: #8c9494;
+    border-radius: 500px;
+    display: inline-block;
+    height: 11px;
+    margin: 0 5px;
+    width: 11px;
+}
+
+#testimonial .owl-carousel .owl-controls .owl-pagination  div.active {
+    background: #5DCA88;
+}
+
+
+
+
+/*=========================
+    9) Submit Start
+===========================*/
+
+#subscription {
+    background: #F3F5F5;
+    padding-top: 90px;
+    padding-bottom: 120px;
+    .block {
+        text-align: center;
+        h2 {
+            padding-bottom: 50px;
+            color: #8C9494;
+            i {
+                font-size: 36px;
+                margin-right: 20px;
+                color: #8C9494;
+            }
+        }
+        input {
+             border: 2px solid #BBC3C2;
+            float: left;
+            border-radius: 40px;
+            height: 71px;
+            background: #FFFFFF;
+            outline:none;
+        } 
+        .btn-subscription {
+            border: none;
+            padding: 21px 55px;
+            background: #5DCA88;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-radius: 40px;
+            position: absolute;
+            right:15px;
+            top: 0;
+        }
+
+    }
+}
+
+
+
+
+/*=========================
+    9) footer Start
+===========================*/
+
+#footer {
+    background: #2D312F;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    .block {
+        h2 {
+            color: #8C9494;
+            font-size: 24px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+            margin: 0px;
+            padding-bottom: 30px;
+        }
+        .social-icon {
+            li {
+                display: inline-block;
+                margin:0 5px;
+                a {
+                    background: #5d6461;
+                    border-radius: 50px;
+                    color: #2d312f;
+                    font-size: 20px;
+                    padding:8px 14px;
+                }
+            }
+        }
+
+        .menu{
+            padding-top: 70px;
+            ul {
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+                li {
+                    display: inline-block;
+                    padding: 0px 10px;
+                    a {
+                        display: inline-block;
+                        color: #8C9494;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
