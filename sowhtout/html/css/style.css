@@ -1,0 +1,305 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#018ebc url(../images/bg.gif) repeat-x fixed;
+	font:11px/18px "Lucida Grande","Lucida Sans Unicode",Verdana,Arial,Helvetica,sans-serif;
+	color:#222;
+}
+
+/* Layout Styles Starts */
+
+#wrapper-outer{
+	background:url(../images/wrapper-outer-bg.png) no-repeat;
+	width:910px;
+	margin:5% auto 0 auto;
+	border-top:3px solid #70b9cb;
+	border-bottom:3px solid #1289ae;
+}
+#wrapper{
+	width:900px;
+	background:#fff;
+	border:2px solid #fff;
+	margin:0 auto;
+	overflow:hidden;
+	height:529px;
+}
+
+	#header{
+		width:105px;
+		height:529px;
+		background:url(../images/header-bg.gif) repeat-x;
+		float:left;
+		display:block;
+	}
+		#logo{
+		}
+			#logo h1{
+				background:url(../images/logo.gif) no-repeat center center;			
+				width:105px;
+				height:389px;	
+				padding-top:110px;				
+			}
+				#logo h1 a{
+					display:block;
+					width:73px;
+					height:283px;
+					margin:0 auto;
+				}
+					#logo h1 a span{
+						display:none;
+					}
+	#container{
+		width:795px;
+		float:right;
+	}
+	
+
+	/* ots@tp2p */
+
+	.haccordion{
+		float:right;
+	}
+		.haccordion a img{
+			cursor:pointer;
+		}
+		.haccordion .header, .haccordion .content{
+			float:left;	
+			height:529px;
+		}
+		.haccordion .header{
+			cursor:pointer;
+			padding:0 1px;
+		}
+			.haccordion .header .home{
+				background:url(../images/home.gif) no-repeat;
+			}
+				.haccordion .header .home span{
+					display:none;
+				}
+			.haccordion .content .home{
+			}
+				.haccordion .content .home h3 span{
+					color:#1abde0;
+				}
+				.haccordion .content .home a{
+					color:#1a9db8;
+				}
+			.haccordion .header .about{
+				background:url(../images/about.gif) no-repeat;
+			}
+				.haccordion .header .about span{
+					display:none;
+				}
+			.haccordion .content .about{
+			}
+				.haccordion .content .about h3 span{
+					color:#60a40b;
+				}
+				.haccordion .content .about a{
+					color:#538a0d;			
+				}
+			.haccordion .header .services{
+				background:url(../images/services.gif) no-repeat;
+			}
+				.haccordion .header .services span{
+					display:none;
+				}
+			.haccordion .content .services{
+			}
+				.haccordion .content .services h3 span{
+					color:#ce9c02;
+				}
+				.haccordion .content .services a{
+					color:#b38804;			
+				}
+			.haccordion .header .photofolio{
+				background:url(../images/photofolio.gif) no-repeat;
+			}
+				.haccordion .header .photofolio span{
+					display:none;
+				}
+			.haccordion .content .photofolio{
+			}
+				.haccordion .content .photofolio h3 span{
+					color:#d35f10;
+				}
+				.haccordion .content .photofolio a{
+					color:#ac4c0b;			
+				}
+			.haccordion .header .contact{
+				background:url(../images/contact.gif) no-repeat;
+				width:45px;
+				height:529px;
+			}
+				.haccordion .header .contact span{
+					display:none;
+				}
+			.haccordion .content .contact{
+				padding:25px;
+				color:#fff;
+				height:529px;
+			}
+				.haccordion .content .contact h3{
+					color:#f34da3;
+				}
+				.haccordion .content .contact a{
+					color:#cb3080;			
+				}
+			.haccordion .header .home, .haccordion .header .about, .haccordion .header .services, .haccordion .header .photofolio, .haccordion .header .contact{
+				width:43px;
+				height:529px;
+			}
+			#container .haccordion .content .home, .haccordion .content .about, .haccordion .content .services, .haccordion .content .photofolio, .haccordion .content .contact{
+				padding:25px 15px 0 15px;
+				color:#000;
+				height:504px;
+			}
+				.haccordion .content h3{
+					text-transform:uppercase;
+				}
+				.haccordion .content h3 span{
+					color:#000;
+				}
+				.haccordion .content img{
+					padding:10px;
+				}
+				.block1{
+					width:155px;
+					padding:10px;
+					float:left;
+					display:block;
+				}
+				.haccordion .content dl{
+					margin:5px 0;
+				}
+					.haccordion .content  dt{
+						font-weight:bold;
+						margin:5px 0;
+					}
+						.haccordion .content dd{
+							margin:10px 0;
+						}
+		.haccordion .content{
+			display: none;
+			width: 0px;
+			overflow:hidden;
+		}
+			.haccordion .content.visible{
+				display: block;
+				width: 570px;
+			  }
+		
+	/* Accordions Style Ends */
+
+#footer{
+	width:900px;
+	text-align:center;
+	margin:10px auto 0 auto;
+	color:#aef0ff;
+}
+	#footer a{
+		color:#aef0ff;
+		text-decoration:underline;
+	}
+.image{
+	cursor:pointer;
+}
+/* Layout Styles Ends */
+
+/* Form Styles */
+
+.input, .textarea{
+	border:solid #898989;
+	border-width:2px 1px 1px 1px;
+	margin:3px 0;
+}
+.input:focus, .textarea:focus{
+	border:solid #4e7998;
+	border-width:2px 1px 1px 1px;
+}
+.button1{
+	background:url(../images/btn.jpg) no-repeat;
+	width:80px;
+	height:41px;
+	line-height:26px;
+	border:none;
+	outline:none;
+	margin:8px 0 0 0;
+	cursor:pointer;
+}
+/* Form Styles */
+
+/* Paragraph and list Styles */
+
+#container h2{
+	font-weight:normal;
+}
+	#container h2 span{
+		color:#437597;
+	}
+#container p{
+	margin:0 0 15px 0;
+	text-align:justify;
+}
+#container p img.floatleft{
+	margin:0 10px 0 0;
+}
+#container p img.floatright{
+	margin:0 0 0 10px;
+}
+#container form p{
+	margin:0 0 8px 0;
+}
+#container ul{
+	margin:0 0 0 25px;
+}
+#container ol{
+	margin:0 0 0 30px;
+}
+
+/* Paragraph Styles */
+
+/* Genric Styles Starts */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+a {
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover {text-decoration:underline;color:#000;}
+h1{font-size:28px;}
+h2{font-size:24px;}
+h3{font-size:20px;}
+h4{font-size:16px;}
+h5, h6{font-size:14px;}
+h1,h2,h3,h4,h5,h6{margin:0 0 25px 0; font-family:"Trebuchet MS";}
+img{border:none;}
+.clear{clear:both;}
+.floatleft{float:left;}
+.floatright{float:right;}
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+.normal a{font-weight:normal;}
+.fc1{color:#b86d13;}
+.fs1{font-size:22px;}
+/* Genric Styles Ends */
+
