@@ -1,0 +1,390 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+.clearfix{
+	clear:both;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+html,body input[type="text"],body input[type="password"]{
+	outline:none;
+}
+/*--- Header Part Starts Here ---*/
+.header{
+	background:url(../images/bg.jpg)no-repeat ;
+	background-size: cover;
+	padding:10px 10px;
+}
+.logo{
+	float:left;
+	width: 20%;
+}
+.menu{
+	float:right;
+	margin-top: 12px;
+}
+.menu_box_list{
+	background:#c0c0c0;
+	padding:10px 10px;
+	text-align:center;
+}
+.menu_box_list ul li{
+	margin:5px;
+}
+.menu_box_list ul li a{
+	color:#000;
+	font-size:15px;
+	display:block;
+	padding:5px;
+	border-bottom:1px solid #fff;
+}
+a#activator {
+	margin: 0 5px;
+}
+ul.menu-top{
+	float: left;
+}
+ul.menu-top li{
+	display: inline-block;
+	margin:0px 5px;
+}
+ul.menu-top li a{
+	text-decoration: none;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:12px;
+	font-weight:700;
+}
+.header-bottom {
+	text-align:center;
+	padding:1em 0 0;
+}
+.header-bottom p{
+	font-style:italic;
+	font-weight:400;
+	color:rgba(255, 255, 255, 0.7);
+	font-size: 14px;
+	font-family:Times;
+	margin:0px;
+	padding:0px;
+}
+.header-bottom h1{
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	color:#fff;
+	margin:0px;
+	font-size:20px;
+	padding:0px;
+	margin:0 0 0.5em 0;
+}
+.header-bottom a{
+	background:none;
+	padding:5px 10px;
+	text-transform:uppercase;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	font-size:14px;
+	text-decoration: none;
+	border:2px solid #fff;
+}
+.header-bottom p.reward{
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	color:#fff;
+	font-size:14px;
+	font-style: inherit;
+	padding:1em 0;
+}
+.header-bottom p.reward u{
+	font-weight:700;
+}
+/*--- Header Part Ends Here ---*/
+/*---- About us Part Starts Here ---*/
+.aboutus{
+	padding:20px 10px;
+}
+.aboutus-row-column{
+	text-align:center;
+	margin-bottom: 14px;
+}
+.aboutus-row-column i.icon1{
+	width:48px;
+	height:48px;
+	background:url(../images/icon-burg.png)no-repeat;
+	display: inline-block;
+}
+.aboutus-row-column i.icon2{
+	width:48px;
+	height:48px;
+	background:url(../images/icon-cash.png)no-repeat;
+	display: inline-block;
+}
+.aboutus-row-column i.icon3{
+	width:48px;
+	height:48px;
+	background:url(../images/icon-person.png)no-repeat;
+	display: inline-block;
+}
+.aboutus-row-column h3{
+	text-decoration:none;
+	font-weight:700;
+	font-size:0.875em;
+	color: #000;
+	margin: 0;
+	padding: 0px 0 5px;
+}
+.aboutus-row-column p{
+	font-weight:400;
+	font-size: 14px;
+	margin-top: 5px;
+}	
+.inter-row-column h4 span {
+	border-bottom: 1px solid red;
+}
+span.line-red{
+	width:10%;
+	height:1px;
+	background:red;
+	display: block;
+	margin:0 auto;
+}
+span.linet-red{
+	width:10%;
+	height:1px;
+	background:red;
+	display: block;
+	margin:0 auto;
+}
+/*---- About us Part Ends Here ---*/
+/*--- Interduce Part Starts Here ---*/
+.interduce{
+	background:#f7f7f7;
+	padding:20px 0 0 0;
+	
+}
+.inter-row-column2{
+	text-align: center;
+}
+.inter-row-column{
+	padding:10px;
+}
+.inter-row-column h4{
+	font-weight:700;
+	font-size:16px;
+	color: #000;
+}
+.inter-row-column p{
+	padding:4px 0 5px 0;
+	font-weight:400;
+	font-size:14px;
+}
+ul.inter-duce{
+	padding:0;
+	margin:0;
+}
+ul.inter-duce li{
+	display:inline-block;
+	padding:0px;
+	margin:0px;
+}
+i.icon4{
+	width:80px;
+	height:32px;
+	background:url(../images/icon5.png)no-repeat;
+	display: block;
+	cursor:pointer;
+}
+i.icon5{
+	width:80px;
+	height:32px;
+	background:url(../images/icon4.png)no-repeat;
+	display: block;
+	cursor:pointer;
+}
+/*--- Interduce Part Ends Here ---*/
+/*--- Slider Part Starts Here ----*/
+/*------------------ Slider Part starts Here----------*/
+.slider{
+	background:url(../images/slide-bg.jpg)no-repeat;
+	background-size: cover;
+	padding:20px 10px;
+}
+.rslides img {
+  height: auto;
+  border-radius:200px;
+  -webkit- border-radius:200px;
+  -moz- border-radius:200px;
+  -o- border-radius:200px;
+}
+.callbacks_tabs{
+	list-style: none;
+	position: absolute;
+	top:93%;
+	z-index: 999;
+	left: 36%;
+	padding: 0;
+	margin: 0;
+}
+.slider-top{
+	text-align: center;
+}
+.slider-top p{
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	font-size:15px;
+	padding:10px 0em 0 0;
+	color:rgba(255, 255, 255, 0.32);
+}
+.slider-top p.below{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.32);
+	font-weight: 300;
+	padding: 0.5em 0 0.5em 0;
+}
+.callbacks_tabs li{
+	display:inline-block;
+}
+/*-- Slider Part Ends Here ---*/
+/*--- Portfolio Starts Here ----*/
+.portfolio{
+	margin-top:10px;
+}
+.portfolio-top{
+	padding:20px 10px;
+	text-align:center;
+}
+.portfolio-top h3{
+	font-size:16px;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	color:#000;
+	
+}
+.portfolio-img{
+	width:50%;
+	float:left;
+}
+.portfolio-img img{
+	width:100%;
+}
+.portfolio-start{
+	margin-bottom:10px;
+}
+ul.numbers{
+	margin:10px 0px;
+	padding:0;
+	text-align:center;
+}
+ul.numbers li{
+	display: inline-block;
+	margin:5px 5px;
+}
+.number-top{
+	text-align:center;
+}
+.number-top h4{
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	font-size:0.875em;
+	color:#000;
+	margin:0;
+}
+.number-top p{
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	font-size:14px;
+}
+/*--- Portfolio Ends Here ----*/
+/*--- Footer Part Starts Here ---*/
+.footer{
+	background:#f7f7f7;
+	padding:10px 0;
+	text-align:center;
+}
+.footer-top a{
+}
+p.footer-head{
+	font-weight:400;
+	font-size:13px;
+	color:#000;
+	margin-top:4px;
+}
+p.footer-head a{
+	text-decoration: none;
+	color:#a63d56;
+	font-weight:700;
+}
+/*--- Footer Part Ends Here ---*/
+/*--login--*/
+.login, .signup{
+	text-align:center;
+}
+.login h3, .signup h3 {
+	margin: 1em 0;
+	color: #a63d56;
+}
+.login h4, .signup h4{
+	font-size:13px;
+	margin-bottom:10px;
+}
+.login input[type="text"], .login input[type="password"] {
+	width: 90%;
+	padding: 5px;
+	margin: 3px 0;
+	outline:none;
+}
+.login input[type="submit"], .signup input[type="submit"] {
+	background: #a63d56;
+	border: 0px;
+	padding: 8px 12px;
+	margin: 10px 10px;
+	outline: none;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	-webkit-appearance: none;
+	font-size: 13px;
+}
+/*--signup--*/
+.signup input[type="text"] {
+	width:90%;
+	padding: 5px;
+	margin: 10px 0;
+	outline:none;
+}
+.signup input.email[type="text"], .signup input[type="password"] {
+	width: 90%;
+	padding: 5px;
+	margin: 10px 0;
+	outline:none;
+}
