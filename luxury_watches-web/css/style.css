@@ -367,33 +367,6 @@ span.simpleCart_total {
 /*--end-bottom-header--*/
 /*--banner-Part-starts-Here --*/
 /*--banner-starts--*/
-.banner{
-	background:url(../images/bnr-1.jpg) no-repeat;
-	min-height:600px;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-}
-.banner1{
-	background:url(../images/bnr-2.jpg) no-repeat;
-	min-height:600px;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-}
-.banner2{
-	background:url(../images/bnr-3.jpg) no-repeat;
-	min-height:600px;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-}
 /*------------------ Slider Part starts Here----------*/
 .callbacks_container {
   position: relative;
@@ -455,6 +428,10 @@ span.simpleCart_total {
 }
 .rslides img {
   height: auto;
+  display: block;
+  float: left;
+  width: 100%;
+  border: 0;
 }
 .callbacks_tabs {
 	list-style: none;
