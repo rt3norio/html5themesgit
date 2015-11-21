@@ -6,12 +6,17 @@ jQuery(document).ready(function($) {
 	/************** Toggle *********************/
     // Cache selectors
     var lastId,
-        topMenu = $(".menu-first, .menu-responsive"),
+        topMenu = $(".menu-first"),
         topMenuHeight = topMenu.outerHeight()+15,
         // All list items
         menuItems = topMenu.find("a"),
         // Anchors corresponding to menu items
         scrollItems = menuItems.map(function(){
+          
+          if($(this).hasClass('external')) {
+            return;
+          }
+            
           var item = $($(this).attr("href"));
           if (item.length) { return item; }
         });
@@ -73,8 +78,12 @@ jQuery(document).ready(function($) {
 
 
     $('.toggle-menu').click(function(){
-        $('.menu-responsive').slideToggle();
-        return false;
+        $('.menu-first').toggleClass('show');
+        // $('.menu-first').slideToggle();
+    });
+
+    $('.menu-first li a').click(function(){
+      $('.menu-first').removeClass('show');
     });
 
 
